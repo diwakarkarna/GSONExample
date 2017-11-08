@@ -16,7 +16,7 @@ public class GSONSample {
 	Config config;
   @Test
   public void f() throws NoSuchMethodException, SecurityException {
-	  System.out.println(config.getSearchSourceSettings().getSources().get(0).getType());
+	  System.out.println(config.getSearchSourceSettings().isShowInfoWindowOnSelect());
   }
   
   @BeforeClass
