@@ -5,7 +5,8 @@ import java.util.List;
 public class SearchSourceSettings {
 	 String allPlaceHolder;
 	 boolean showInfoWindowOnSelect;
-	 List<SearchSourceType> sources;
+	 SearchSourceType[] sources;
+	 
 	public String getAllPlaceHolder() {
 		return allPlaceHolder;
 	}
@@ -18,10 +19,10 @@ public class SearchSourceSettings {
 	public void setShowInfoWindowOnSelect(boolean showInfoWindowOnSelect) {
 		this.showInfoWindowOnSelect = showInfoWindowOnSelect;
 	}
-	public List<SearchSourceType> getSources() {
+	public SearchSourceType[] getSources() {
 		return sources;
 	}
-	public void setSources(List<SearchSourceType> sources) {
+	public void setSources(SearchSourceType[] sources) {
 		this.sources = sources;
 	}
 }

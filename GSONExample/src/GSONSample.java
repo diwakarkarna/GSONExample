@@ -15,8 +15,8 @@ public class GSONSample {
 	Gson gson;
 	Config config;
   @Test
-  public void f() throws NoSuchMethodException, SecurityException {
-	  System.out.println(config.getSearchSourceSettings().getSources());
+  public void f() {
+	  
   }
   
   @BeforeClass
